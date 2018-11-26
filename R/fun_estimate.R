@@ -37,7 +37,7 @@ fun_estimate <- function(oy, od, oz, bound, ...) {
         h[2, 1] <- h[1, 2]
         
         ep <- 1e-05
-        while (!((det(h) > 1e-04) && (diag(h) > 0))) {
+        while (!((det(h) > 1e-04) && all(diag(h) > 0))) {
             ep <- 2 * ep
             h <- h + ep * diag(2)
         }
