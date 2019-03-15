@@ -1,7 +1,12 @@
 ypinterim.default <- function(time, event, group, spendfun, critvalue = NULL, repnum = 1E4,
                                   bound = 50, seed.fix = 0, ...) {
   
-  if(seed.fix == FALSE & is.numeric(seed.fix)) set.seed(seed.fix)
+  
+  if((seed.fix != FALSE) & is.numeric(seed.fix)) {
+    old <- .Random.seed
+    on.exit( { .Random.seed <<- old } )
+    set.seed(seed.fix)
+  }
   
   nmonitoring <- length(spendfun)
   len_usercrt <- length(critvalue)

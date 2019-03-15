@@ -2,7 +2,7 @@ Package: YPInterimTesting
 Type: Package
 Title: Interim Monitoring Using Adaptively Weighted Log-Rank Test in
         Clinical Trials
-Version: 1.0.0
+Version: 1.0.1
 Author: Daewoo Pak and Song Yang
 Maintainer: Daewoo Pak <heavyrain.pak@gmail.com>
 Description: For any spending function specified by the user, this 
@@ -24,6 +24,6 @@ RoxygenNote: 6.0.1
 Imports: Rcpp, MASS
 LinkingTo: Rcpp
 NeedsCompilation: yes
-Packaged: 2018-11-26 23:27:36 UTC; dpak
+Packaged: 2019-03-15 22:09:22 UTC; dpak
 Repository: CRAN
-Date/Publication: 2018-11-26 23:40:09 UTC
+Date/Publication: 2019-03-15 22:33:24 UTC

@@ -14,7 +14,7 @@ NumericVector awlrstat(int repnum, int n, NumericMatrix quan1, NumericMatrix qua
 
   for (int i = 0; i < repnum; ++i) {
 
-    NumericVector error = rnorm(n);
+    NumericVector error = Rcpp::rnorm(n);
 
     for (int j = 0; j < nci; ++j) {
       for (int k = 0; k < n; ++k) {

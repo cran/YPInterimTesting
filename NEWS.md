@@ -1,6 +1,5 @@
-# YPInterimTesting 0.1.0
-
-* The initial version
+# YPInterimTesting 1.0.1
+* Fix error when setting a random.seed
 
 # YPInterimTesting 1.0.0
 
@@ -23,3 +22,9 @@
 * Add new examples to the `ypinterim` help documents in order to show how to utilize the argument `critvalue` in the function clearly. 
 
 * Error fixed in the example data: the `virtual_data` has also been changed to have only one `group` vector.
+
+# YPInterimTesting 0.1.0
+
+* The initial version
+
+
