@@ -1,6 +1,6 @@
-fed7c37f87136410b89d346503c2a252 *DESCRIPTION
+6ab7d68a16e83a34241a979639343c23 *DESCRIPTION
 529a61dd4b997970f1358ce19948077d *NAMESPACE
-dbd0ff06a951c27f162184449a563b63 *NEWS.md
+804e8b30cf7802e2744b6c06291e4ade *NEWS.md
 6810765d37ba2f2dbaa5879d22f48a36 *R/RcppExports.R
 4ada303e3057b77d920b8c995d038bb5 *R/fun_estimate.R
 f90e3ccb7c0889576ed61766a1c2e490 *R/fun_interpol.R
@@ -8,7 +8,7 @@ df40af1cf3d6c9010b09eec743200450 *R/fun_less.R
 e14c94bc4b1b382f1a84ed44a567e189 *R/print.ypinterim.R
 56b1da727b5431f85703b390ce4e60a6 *R/summary.ypinterim.R
 dbdfd85e2f6de52a3f9623e329368446 *R/ypinterim.R
-d9121e2388610f5ba92535977f11dd81 *R/ypinterim.default.R
+ed3931ed04f28666fd59ccf6df690594 *R/ypinterim.default.R
 0461fd2770d90a59dcdbd5595e92d869 *README.md
 3cdeab125136c245a3244ede88636eae *data/virtual_data.rda
 03cd12e42eecd4461845eda89153ebc1 *man/YPInterimTesting-internal.Rd

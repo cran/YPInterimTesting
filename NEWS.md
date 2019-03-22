@@ -1,3 +1,6 @@
+# YPInterimTesting 1.0.2
+* Fix error in setting random seed in the 'ypinterm.default' function
+
 # YPInterimTesting 1.0.1
 * Fix error when setting a random.seed
 
