@@ -8,4 +8,4 @@
 \description{
 Internal functions for the YPInterimTesting package.
 }
-
+\keyword{ypinterim}

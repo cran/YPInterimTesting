@@ -46,7 +46,7 @@ Yang, S., & Prentice, R. (2005). Semiparametric analysis of short-term and long-
 
 \examples{
 library(YPInterimTesting)
-data(virtual_data)
+data(virtual)
 
 time <- virtual$time
 event <- virtual$event
@@ -104,3 +104,5 @@ result_look3
 summary(result_look3)
 
 }
+
+\keyword{ypinterim}

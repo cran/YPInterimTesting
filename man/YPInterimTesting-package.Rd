@@ -26,7 +26,8 @@ Yang, S. (2018). Interim monitoring using the adaptively weighted log-rank test 
 Yang, S., & Prentice, R. (2010). Improved logrank-type tests for survival data using adaptive weights. Biometrics, 66(1), 30-38.
 }
 
-\keyword{Survival analysis, Clinical trials, Interim analysis, Yang and Prentice model}
+\keyword{Interim analysis}
+
 \seealso{
 \code{\link{ypinterim}}
 }

@@ -2,10 +2,13 @@ ypinterim.default <- function(time, event, group, spendfun, critvalue = NULL, re
                                   bound = 50, seed.fix = 0, ...) {
   
   free <- ifelse(is.logical(seed.fix) & (seed.fix == FALSE), TRUE, FALSE)
-  
+
   if((free == FALSE) & is.numeric(seed.fix)) {
-    old <- .Random.seed
-    on.exit( { .Random.seed <<- old } )
+    if (exists(".Random.seed", .GlobalEnv)) {
+      oldseed <- .Random.seed
+    } else {
+      oldseed <- NULL
+    }
     set.seed(seed.fix)
   }
   
@@ -196,6 +199,13 @@ ypinterim.default <- function(time, event, group, spendfun, critvalue = NULL, re
 
   colnames(fitbeta_all) <- 1:nmonitoring
   rownames(fitbeta_all) <- c("b1", "b2")
+  
+  
+  if (!is.null(oldseed)) {
+    on.exit( { .Random.seed <<- oldseed} )
+  } else {
+    rm(".Random.seed", envir = .GlobalEnv)
+  }
   
   result <- list()
   result$teststat <- testvalue

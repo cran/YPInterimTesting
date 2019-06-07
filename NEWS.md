@@ -1,3 +1,7 @@
+# YPInterimTesting 1.0.3
+* Fix error occurred when .Random.seed does not exits on .GlobalEnv
+* Change the name of the data from 'virtual_data' to 'virtual' 
+
 # YPInterimTesting 1.0.2
 * Fix error in setting random seed in the 'ypinterm.default' function
 
